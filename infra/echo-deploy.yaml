@@ -53,7 +53,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /
+      - path: /echo
         pathType: Prefix
         backend:
           service:
